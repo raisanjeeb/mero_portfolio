@@ -652,18 +652,6 @@ footer {
 }
 
 /* Wing flap */
-.wing-left  { transform-origin: 95px 100px;  animation: flapLeft  0.5s ease-in-out infinite alternate; }
-.wing-right { transform-origin: 105px 100px; animation: flapRight 0.5s ease-in-out infinite alternate; }
-
-@keyframes flapLeft  { from { transform: scaleX(1); } to { transform: scaleX(0.15); } }
-@keyframes flapRight { from { transform: scaleX(1); } to { transform: scaleX(0.15); } }
-
-/* Individual positions, float paths & speeds */
-.b1 { right: 10%; top: 28%; animation: float1 7s ease-in-out infinite; }
-.b2 { right: 18%; top: 55%; animation: float2 5s ease-in-out infinite; animation-delay: -2s; }
-.b3 { right: 5%;  top: 50%; animation: float3 9s ease-in-out infinite; animation-delay: -4s; }
-.b4 { right: 22%; top: 20%; animation: float4 4s ease-in-out infinite; animation-delay: -1s; }
-.b5 { right: 14%; top: 70%; animation: float5 6s ease-in-out infinite; animation-delay: -3s; }
 
 /* Slow down flap for bigger butterflies */
 .b3 .wing-left  { animation-duration: 0.7s; }
